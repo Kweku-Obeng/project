@@ -28,6 +28,9 @@ def get_filters():
     """NB: The month input must be between january and june"""
     month = input("Please input month name: ").lower()
     
+    while city not in ['january', 'february', 'march', 'april', 'may','june']:
+        city = input("month input invalid! Please retry month between january to june: ").lower()
+
     month = input("Please input month name: ").lower()
 
     # TO DO: get user input for day of week (all, monday, tuesday, ... sunday)
