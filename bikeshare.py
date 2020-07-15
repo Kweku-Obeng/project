@@ -28,7 +28,7 @@ def get_filters():
     month = input("Please input month name: ").lower()
     
     while city not in ['january', 'february', 'march', 'april', 'may','june']:
-        city = input("City is name is invalid! Please retry to input another name: ").lower()
+        city = input("month input invalid! Please retry month between january to june: ").lower()
 
     month = input("Please input month name: ").lower()
 
