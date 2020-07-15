@@ -25,6 +25,7 @@ def get_filters():
         city = input("City is name is invalid! Please retry to input another name: ").lower()
 
     # TO DO: get user input for month (all, january, february, ... , june)
+    """NB: The month input must be between january and june"""
     month = input("Please input month name: ").lower()
     
     month = input("Please input month name: ").lower()
